@@ -11,6 +11,8 @@
 |handlerPoint|监听指示点|function| |否|
 |handlderLeft|监听左边箭头|function||否
 |handlderRight|监听右边箭头|function||否
+|pointhas|是否展示指示点|Boolean|false|否|
+|toolhas|是否展示左右箭头|Boolean|false|否|
 
 
 ### swiper-item
