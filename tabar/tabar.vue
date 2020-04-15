@@ -1,5 +1,5 @@
 <template>
-	<div class="tabar-containe" :style="width:width+'px'">
+	<div class="tabar-containe" :width="width">
 		<div class="tabar" v-for="(item, index) in data" :key="index">
 			<div @click="selectMenu(item)" class="selectMenu"  :class="[activeid===item.id?'active':'']">
 				<span >{{ item.name }}</span>
